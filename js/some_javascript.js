@@ -9,8 +9,8 @@
    let trackCap = 0;
 
    const dataStart = document.querySelector("[data-start]");
-
-
+  console.warn('There is an unknown. problem with the RTFM network. Try again later')
+  console.error('JavaScript issue Detected: Instruction navigation segment corruption 579: displaced reference.')
   let trackElement;
    function log(msg) {
       logElement.innerHTML += ('<p>' + msg + '</p>');
