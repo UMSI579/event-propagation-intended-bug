@@ -77,7 +77,7 @@
    }
 
    function clearOutput() {
-      logElement.innerHTML = "";
+      logelement.innerHTML = "";
    }
 
    const divs = document.getElementsByTagName('div');
