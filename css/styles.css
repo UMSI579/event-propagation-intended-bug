@@ -1,0 +1,22 @@
+p {
+    line-height: 0;
+}
+
+div {
+    display:inline-block;
+    padding: 14px;
+    margin: 14px;
+    background: #fff;
+    border: 1px solid #aaa;
+    cursor: pointer;
+  box-sizing: border-box;
+}
+
+div:hover {
+    border: 1px solid #faa;
+    background: #fdd;
+}
+
+main {
+    padding: 60px 30px;
+}
